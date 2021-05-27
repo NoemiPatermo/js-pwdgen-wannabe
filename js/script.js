@@ -9,5 +9,5 @@ var password = name + surname + favouriteColour;
 
 //cosa vedrai sulla pagina
 
-document.getElementById("myID").innerHTML = (password +"21");
+document.getElementById("result").innerHTML = password +"21";
 
