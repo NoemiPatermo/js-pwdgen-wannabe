@@ -23,9 +23,15 @@ document.getElementById('risultato').innerHTML = result;
  //generatore di password molto poco affidabile
  var a = prompt('inserire il nome');
  var b = prompt('adesso il cognome');
- var c = prompt('ultimo libro che hai letto');
+var c = prompt('ultimo libro che hai letto');
 
  //crea la variabile password che sommerà i tuoi dati
  var d = a + b + c;
  document.getElementById('your-password').innerHTML = d;
 
+ /*
+ var a = prompt('inserisci un numero');
+ var b = prompt('inserisci altro numero');
+ var result = parseInt(a) / parseInt(b);
+ document.getElementById('risultato').innerHTML = result;
+*/
