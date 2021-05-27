@@ -1,11 +1,11 @@
 //i miei dati
-var name = prompt('Inserire nome');
+var firstName = prompt('Inserire nome');
 var surname = prompt('Inserire cognome');
 var favouriteColour = prompt('inserire colore preferito');
 
 //creare la variabile password che somma i miei dati
 
-var password = name + surname + favouriteColour;
+var password = firstName + surname + favouriteColour;
 
 //cosa vedrai sulla pagina
 
