@@ -1,4 +1,13 @@
-var Noemi = prompt('Inserire nome');
-var Patermo = prompt('Inserire cognome');
-var bordeaux = prompt('inserire colore preferito');
-document.getElementById("myID").innerHTML = ("NoemiPatermobordeaux21");
+//i miei dati
+var name = prompt('Inserire nome');
+var surname = prompt('Inserire cognome');
+var favouriteColour = prompt('inserire colore preferito');
+
+//creare la variabile password che somma i miei dati
+
+var password = name + surname + favouriteColour;
+
+//cosa vedrai sulla pagina
+
+document.getElementById("myID").innerHTML = (password +"21");
+
