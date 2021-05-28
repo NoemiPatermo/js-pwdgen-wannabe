@@ -35,3 +35,33 @@ document.getElementById('risultato').innerHTML = result;
  var result = parseInt(a) / parseInt(b);
  document.getElementById('risultato').innerHTML = result;
 */
+
+/*snack fatti in classe 28maggio*/
+
+/*utente inserisce un numero , il pc dice se è pari o dispari
+
+var num = prompt('inserisci il tuo numero');
+
+if (num % 2 === 0) {
+    document.getElementById("numero").innerHTML = 'pari';
+} else {
+    document.getElementById("numero").innerHTML = 'dispari';
+}
+
+
+/*var x = prompt ('inserisci il tuo nome');
+
+if (x==='Ottavio'){
+    document.getElementById('output').innerHTML = 'Salve Prof!';
+}else{
+    document.getElementById('output').innerHTML = 'Salve collega';
+}
+*/
+
+/*var x = Math.floor(Math.random() * 10);
+/*document.getElementById("random").innerHTML = x;
+if (x > 5){
+    document.getElementById("random").innerHTML = ciao;
+} else {
+    document.getElementById("random").innerHTML = hola; 
+}
