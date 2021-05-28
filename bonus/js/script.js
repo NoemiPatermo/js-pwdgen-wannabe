@@ -62,6 +62,4 @@ if (x==='Ottavio'){
 /*document.getElementById("random").innerHTML = x;
 if (x > 5){
     document.getElementById("random").innerHTML = ciao;
-} else {
-    document.getElementById("random").innerHTML = hola; 
-}
+} 
